@@ -1,0 +1,85 @@
+
+body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/227/917/desktop-wallpaper-iphone-x-soft-pastel-purple.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 35px 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: rgba(0, 0, 0, 0.738);
+}
+
+.box {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.decription {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.images img {
+    width: 450px;
+    height: 250px;
+}
+
+.images {
+    background: rgba(0, 0, 0, 0.119);
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-radius: 45px;
+}
+
+.decription2 {
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.text {
+    color: black;
+    text-decoration: none;
+
+    transition: color 0.2s linear;
+}
+
+.text:hover {
+    color: aqua;
+}
+
+.btn {
+    border: none;
+    color: black;
+    background-color: aqua;
+    border: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    transition: background-color 0.2s linear;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+}
